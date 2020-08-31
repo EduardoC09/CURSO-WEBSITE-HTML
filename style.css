@@ -2,10 +2,18 @@ body {
     background: gray
 }
 
-title. subtitle. post_title {
-    color: blue 
+#title, .subtitle, .post_title {
+    color:blue
 }
 
-.post {
-    background: white
+.post_title {
+    font-size:16px;
+    font-style:italic;
+}
+
+.post{
+    background: white;
+    padding:100px 100px 100px 100px;
+    border: 3px solid black;
+    margin:10px;
 }
