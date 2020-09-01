@@ -1,5 +1,6 @@
 body {
     background: lightgray;
+    font-family: Verdana;
 }
 
 .photo {
@@ -8,6 +9,16 @@ body {
 }
 
 #title, .subtitle, .post_title {
+    color: black;
+}
+
+#title {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
     color: black;
 }
 
@@ -29,6 +40,7 @@ body {
 .post_content {
     margin: 0px;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post_image {
